@@ -1,0 +1,20 @@
+import { communityState } from '@/atoms/CommunityAtom'
+import React from 'react'
+import { useRecoilState } from 'recoil'
+
+type Props = {}
+
+const useCommunityData:React.FC = () => {
+    const [communityStateValue,setCommunityStateValue]=useRecoilState(communityState)
+    const joinCommunity=()=>{}
+    const leaveCommunity=()=>{}
+  return {
+    communityStateValue
+    joinCommunity,
+    const leaveCommunity,
+  }
+    
+  
+}
+
+export default useCommunityData

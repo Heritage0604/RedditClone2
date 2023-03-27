@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/pages/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1677524190611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1677524202079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,24 +8,9 @@\n export default function Home() {\n   return (\n     <>\n      \n-            />\n-          </div>\n-        </div>\n-\n-        <div className={styles.grid}>\n-          <a\n-            href=\"https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\"\n-            className={styles.card}\n-            target=\"_blank\"\n-            rel=\"noopener noreferrer\"\n-          >\n-            <h2 className={inter.className}>\n-              Docs <span>-&gt;</span>\n-            </h2>\n-            <p className={inter.className}>\n-              Find in-depth information about Next.js features and&nbsp;API.\n+           s features and&nbsp;API.\n             </p>\n           </a>\n \n           <a\n"
+                },
+                {
+                    "date": 1677524210799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,36 +26,11 @@\n               Learn about Next.js in an interactive course with&nbsp;quizzes!\n             </p>\n           </a>\n \n-          <a\n-            href=\"https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\"\n-            className={styles.card}\n-            target=\"_blank\"\n-            rel=\"noopener noreferrer\"\n-          >\n-            <h2 className={inter.className}>\n-              Templates <span>-&gt;</span>\n-            </h2>\n-            <p className={inter.className}>\n-              Discover and deploy boilerplate example Next.js&nbsp;projects.\n-            </p>\n+        \n+          \n           </a>\n-\n-          <a\n-            href=\"https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\"\n-            className={styles.card}\n-            target=\"_blank\"\n-            rel=\"noopener noreferrer\"\n-          >\n-            <h2 className={inter.className}>\n-              Deploy <span>-&gt;</span>\n-            </h2>\n-            <p className={inter.className}>\n-              Instantly deploy your Next.js site to a shareable URL\n-              with&nbsp;Vercel.\n-            </p>\n-          </a>\n         </div>\n       </main>\n     </>\n   )\n"
+                },
+                {
+                    "date": 1677524219086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,30 +8,8 @@\n export default function Home() {\n   return (\n     <>\n      \n-           s features and&nbsp;API.\n-            </p>\n-          </a>\n-\n-          <a\n-            href=\"https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\"\n-            className={styles.card}\n-            target=\"_blank\"\n-            rel=\"noopener noreferrer\"\n-          >\n-            <h2 className={inter.className}>\n-              Learn <span>-&gt;</span>\n-            </h2>\n-            <p className={inter.className}>\n-              Learn about Next.js in an interactive course with&nbsp;quizzes!\n-            </p>\n-          </a>\n-\n-        \n-          \n-          </a>\n-        </div>\n-      </main>\n+     \n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1677524234918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,6 @@\n const inter = Inter({ subsets: ['latin'] })\n \n export default function Home() {\n   return (\n-    <>\n-     \n-     \n-    </>\n-  )\n+    <div>Hello</div></div>\n }\n"
+                },
+                {
+                    "date": 1677524244896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,6 @@\n const inter = Inter({ subsets: ['latin'] })\n \n export default function Home() {\n   return (\n-    <div>Hello</div></div>\n+    <div>Hello I am  a reddit-clone</div>\n }\n"
+                },
+                {
+                    "date": 1677524255932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,6 @@\n \n export default function Home() {\n   return (\n     <div>Hello I am  a reddit-clone</div>\n+  )\n }\n"
+                }
+            ],
+            "date": 1677524190611,
+            "name": "Commit-0",
+            "content": "import Head from 'next/head'\nimport Image from 'next/image'\nimport { Inter } from 'next/font/google'\nimport styles from '@/styles/Home.module.css'\n\nconst inter = Inter({ subsets: ['latin'] })\n\nexport default function Home() {\n  return (\n    <>\n     \n            />\n          </div>\n        </div>\n\n        <div className={styles.grid}>\n          <a\n            href=\"https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\"\n            className={styles.card}\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n          >\n            <h2 className={inter.className}>\n              Docs <span>-&gt;</span>\n            </h2>\n            <p className={inter.className}>\n              Find in-depth information about Next.js features and&nbsp;API.\n            </p>\n          </a>\n\n          <a\n            href=\"https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\"\n            className={styles.card}\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n          >\n            <h2 className={inter.className}>\n              Learn <span>-&gt;</span>\n            </h2>\n            <p className={inter.className}>\n              Learn about Next.js in an interactive course with&nbsp;quizzes!\n            </p>\n          </a>\n\n          <a\n            href=\"https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\"\n            className={styles.card}\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n          >\n            <h2 className={inter.className}>\n              Templates <span>-&gt;</span>\n            </h2>\n            <p className={inter.className}>\n              Discover and deploy boilerplate example Next.js&nbsp;projects.\n            </p>\n          </a>\n\n          <a\n            href=\"https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\"\n            className={styles.card}\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n          >\n            <h2 className={inter.className}>\n              Deploy <span>-&gt;</span>\n            </h2>\n            <p className={inter.className}>\n              Instantly deploy your Next.js site to a shareable URL\n              with&nbsp;Vercel.\n            </p>\n          </a>\n        </div>\n      </main>\n    </>\n  )\n}\n"
+        }
+    ]
+}
