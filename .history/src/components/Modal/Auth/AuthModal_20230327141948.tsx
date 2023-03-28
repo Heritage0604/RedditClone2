@@ -50,7 +50,7 @@ useEffect(()=>{
      <AuthInputs/>
      </>
  
-): ""}
+): <ResetPassword/>}
      
       
        </Flex>
